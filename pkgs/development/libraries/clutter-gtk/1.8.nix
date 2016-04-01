@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://gnome/sources/clutter-gtk/${major}/${name}.tar.xz";
-    sha256 = "bc3108594a01a08bb6d9b538afe995e4fd78634a8356064ee8137d87aad51b2e";
+    sha256 = "07dzvx0b3fsswxnpxgk0adjgccnrvbxsd971naqwndnfivbgjbkl";
   };
 
   propagatedBuildInputs = [ clutter gtk3 ];
